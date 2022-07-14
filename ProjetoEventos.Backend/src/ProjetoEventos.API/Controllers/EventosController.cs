@@ -44,10 +44,10 @@ namespace ProjetoEventos.API.Controllers
             return eventos;
         }
 
-        [HttpGet("{id}")]
-        public Evento GetEventoById(int envetoId)
-        {
-            return null;
-        }
+        // [HttpGet("{id}")]
+        // public Evento GetEventoById(int envetoId)
+        // {
+        //     return null;
+        // }
     }
 }
